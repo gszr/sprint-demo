@@ -1,0 +1,271 @@
+0xffffffffb2fae15d
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	23
+0xffffffffb22fdc3a
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	18
+epoll_wait
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	15
+parse_printf_format
+C:json_encode
+@./kong/plugins/file-log/handler.lua:40
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	12
+0xffffffffb2f97186
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	11
+__recv
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	8
+0xffffffffb2fae15d
+C:ngx_http_lua_socket_tcp_send
+@./kong/runloop/plugin_servers/pb_rpc.lua:281
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	8
+__send
+C:ngx_http_lua_socket_tcp_send
+@./kong/runloop/plugin_servers/pb_rpc.lua:281
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	7
+ngx_http_lua_socket_tcp_handler
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	6
+json_append_string
+C:json_encode
+@./kong/plugins/file-log/handler.lua:40
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	6
+__xpg_basename
+C:json_encode
+@./kong/plugins/file-log/handler.lua:40
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	6
+ngx_http_lua_socket_tcp_read
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	6
+ngx_http_lua_socket_tcp_send
+C:ngx_http_lua_socket_tcp_send
+@./kong/runloop/plugin_servers/pb_rpc.lua:281
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	5
+0xffffffffb2f97186
+C:ngx_http_lua_socket_tcp_send
+@./kong/runloop/plugin_servers/pb_rpc.lua:281
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	5
+ngx_vslprintf
+T:@/home/gs/code/work/kong/bazel-bin/build/kong-dev/openresty/lualib/ngx/errlog.lua:151
+@/home/gs/code/work/kong/bazel-bin/build/kong-dev/openresty/lualib/ngx/errlog.lua:151
+@./kong/pdk/log.lua:290
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	5
+ngx_rbtree_insert_timer_value
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	5
+ngx_rbtree_min
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	5
+ngx_http_lua_socket_tcp_receive
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	4
+0x78a8230e9004
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	4
+__default_morecore
+T:@./kong/tools/table.lua:204
+@./kong/tools/table.lua:204
+@./kong/pdk/log.lua:794
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	4
+0xffffffffb25e7244
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	4
+0xffffffffb25be678
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+pbN_getname.isra.0
+C:Lpb_decode
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+0x78a8230e912d
+builtin#140
+@./kong/pdk/log.lua:290
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+0x78a8230e912d
+C:ngx_http_lua_ngx_resp_get_headers
+@./kong/globalpatches.lua:165
+@./kong/pdk/log.lua:794
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	3
+ngx_http_lua_kong_get_dynamic_log_level
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+0xffffffffb2e83ee5
+C:ngx_http_lua_socket_tcp_send
+@./kong/runloop/plugin_servers/pb_rpc.lua:281
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+ngx_rbtree_insert_timer_value
+T:@/home/gs/code/work/kong/bazel-bin/build/kong-dev/share/lua/5.1/resty/timerng/thread/worker.lua:143
+@/home/gs/code/work/kong/bazel-bin/build/kong-dev/share/lua/5.1/resty/timerng/thread/worker.lua:143
+builtin#21
+@/home/gs/code/work/kong/bazel-bin/build/kong-dev/share/lua/5.1/resty/timerng/thread/loop.lua:99
+@/home/gs/code/work/kong/bazel-bin/build/kong-dev/share/lua/5.1/resty/timerng/thread/loop.lua:143
+@/home/gs/code/work/kong/bazel-bin/build/kong-dev/share/lua/5.1/resty/tim	3
+vfprintf
+C:json_encode
+@./kong/plugins/file-log/handler.lua:40
+@./kong/plugins/file-log/handler.lua:73
+@./kong/init.lua:432
+@./kong/init.lua:1701
+=log_by_lua(nginx-kong.conf:124):0
+	3
+__default_morecore
+C:Lpb_decode
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+0x78a8230e912d
+builtin#221
+@./kong/pdk/log.lua:290
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+ngx_time_update
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+l_unpack
+C:l_unpack
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+0xffffffffb25b8152
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+ngx_http_lua_socket_handle_read_success
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+ngx_http_lua_socket_tcp_receive_helper
+C:ngx_http_lua_socket_tcp_receive
+@./kong/runloop/plugin_servers/pb_rpc.lua:263
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
+pb_gettable
+C:Lpb_decode
+@./kong/runloop/plugin_servers/pb_rpc.lua:236
+@./kong/runloop/plugin_servers/pb_rpc.lua:301
+@./kong/runloop/plugin_servers/pb_rpc.lua:394
+@./kong/runloop/plugin_servers/bridge.lua:175
+	3
